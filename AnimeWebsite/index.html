@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+                                                   
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Responsive Anime Website</title>
+     <!-- Link To CSS -->
+     <link rel="stylesheet" href="style.css">
+     <!--Link swiper css-->
+     <link rel="stylesheet" href="swiper-bundle.min.css">
+     <!--icono-->
+     <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+     <!--Box icons-->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ </head>
+ <body>
+    <header>
+        <!--NAV-->
+        <div class="nav container">
+            <!--logo-->
+            <a href="index.html" class="logo">
+            Anime<span>ZB</span>
+            </a>
+            <!--Recuadro de busqueda-->
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search Anime">
+                <i class='bx bx-search-alt'></i>
+            </div>
+            <!--usuario-->
+            <a href="#" class="user">
+            <img src="img/user.jpg" alt="" class="user-img">
+            </a>
+            <!--NAVbar-->
+            <div class="navbar">
+                <a href="#home" class="nav-link nav-active">
+                    <i class='bx bx-home'></i> 
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bxs-hot' ></i>
+                    <span class="nav-link-title">Trendings</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-compass' ></i>
+                    <span class="nav-link-title">Explore</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bxs-star' ></i>
+                    <span class="nav-link-title">Featured</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-heart' ></i>
+                    <span class="nav-link-title">Favourites</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!--Home-->
+    <section class="home container" id="home">
+        <!--Hom e image-->
+        <img src="img/home-background.jpg" alt="" class="home-img">
+      <!--Hom text-->
+      <div class="home-text">
+        <h1 class="home-title">The big four are here...<br>Enjoy the aventures</h1>
+        <p>Only en Anime<span>ZB</span></p>
+        <a href="#" class="watch-btn">
+            <i class='bx bx-play-circle'></i>
+            <span>Wacth a new update</span>
+        </a>
+      </div>
+    </section>
+    <!--Home end-->
+   <!--Popular section start-->
+<section class="popular container" id="popular">
+    <div class="heading">
+        <h2 class="heading-title">Popular Animes</h2>
+    </div>
+    <!--Content-->
+    <div class="popular-content swiper">
+        <div class="swiper-wrapper">
+            <!--Movie 1-->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/popular-movie-1.jpg" alt="One Piece" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">One Piece</h2>
+                        <span class="movie-type">Shonen</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Movie 2-->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/popular-movie-2.jpg" alt="Naruto" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Naruto</h2>
+                        <span class="movie-type">Shonen</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Movie 3-->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/popular-movie-3.jpg" alt="Dragon Ball" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Dragon Ball</h2>
+                        <span class="movie-type">Shonen</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class='bx bx-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Swiper controls -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!--Popular section end-->
+
+
+<!--Link swiper JS-->
+    <script src="swiper-bundle.min.js"></script>
+    <!--link to js-->
+    <script src="js/main.js"></script>
+</body>
+ </html>
