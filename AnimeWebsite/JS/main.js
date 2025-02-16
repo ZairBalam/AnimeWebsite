@@ -14,4 +14,4 @@ var swiper = new Swiper(".popular-content", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });
+});
